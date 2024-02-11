@@ -268,7 +268,7 @@ class Factorial:
 
 - `.__getitem__()`	Called when you access an item using indexing like in `sequence[index]`
 - `.__len__()`	Called when you invoke the built-in `len()` function to get the number of items in the underlying sequence
-- `.__contains__()`	Called when you use the sequence in a membership test with the in or not in operator
+- `.__contains__()`	Called when you use the sequence in a membership test with the `in` or `not in` operator
 - `.__reversed__()`	Called when you use the built-in `reversed()` function to get a reversed version of the underlying sequence
 
 ```python
